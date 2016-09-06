@@ -15,13 +15,13 @@ Here is a description of the code in run_anaysis.R:
    - Labels the data set with descriptive variable names, by removing the numerical prefix and parenthese, replacing all dashes "-"        with periods "." and converting to lower case
    - Returns the specified data set to the caller
 
-  The code calls this function twice to get the 2 data sets ("train" and "test").
-  Then it combines them to one big dataset.
-  The code goes on to use descriptive activity names to name the activities in the data set, by assigning a factor (with labels) to the "activities" column.
-  The code collects the means of all measured features by subject and by activity, by using "aggregate"
-  and then uses "melt" to get an elongated style of table or all measures are combined into one column. So there is one row for each observation (average of particular measure), which is identified by subject and activity.
+The code calls this function twice to get the 2 data sets ("train" and "test").
+Then it combines them to one big dataset.
+The code goes on to use descriptive activity names to name the activities in the data set, by assigning a factor (with labels) to the "activities" column.
+The code collects the means of all measured features by subject and by activity, by using "aggregate"
+and then uses "melt" to get an elongated style of table or all measures are combined into one column. So there is one row for each observation (average of particular measure), which is identified by subject and activity.
   
-  This documentation is sparsed in the code, so that it should be easier to understand while following the actual code.
+This documentation is interspersed in the code, so that it should be easier to understand while following the actual code.
   
-  The original codebook of the features is attached, because it contains the names and explanations of the original measures.
-  My codebook.txt contains only additional information.
+The original codebook of the features is attached, because it contains the names and explanations of the original measures.
+My codebook.txt contains only additional information.
