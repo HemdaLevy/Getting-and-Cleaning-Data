@@ -1,0 +1,9 @@
+The variables used in the final table:
+
+subjects - includes id for each participant in the trial
+
+activities - names of the activity performed by the participant: walking, sitting, standing, etc
+
+measures - name of the particular measurement, e.g - acceleration in  one of the axes (X, Y or Z)
+
+average - of the collection of values of the particular measure, per subject, per activity
